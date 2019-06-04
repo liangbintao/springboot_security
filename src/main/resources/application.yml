@@ -7,9 +7,9 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.98.118.202:3306/boot_security_01?useUnicode=true&characterEncoding=UTF-8&&useSSL=true&serverTimezone=UTC
+    url: jdbc:mysql://127.0.0.1:3306/boot_security_01?useUnicode=true&characterEncoding=UTF-8&&useSSL=true&serverTimezone=UTC
     username: root
-    password: 369852147lbt
+    password: root
 
 mybatis:
   configuration:
