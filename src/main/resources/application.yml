@@ -1,0 +1,20 @@
+server:
+  port: 7007
+
+spring:
+  application:
+    name: xuehua_matrix
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.98.118.202:3306/boot_security_01?useUnicode=true&characterEncoding=UTF-8&&useSSL=true&serverTimezone=UTC
+    username: root
+    password: 369852147lbt
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: /mapper/**.xml
+
+#logging:
+#  level.com.mochu.mapper: debug
